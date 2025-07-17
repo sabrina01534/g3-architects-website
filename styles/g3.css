@@ -9,13 +9,18 @@
   font-style: normal;
 }
 /*header style*/
+.banner-image-container{
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid red;
+}
 img{
-  width: 750px;
-  height: 750px;
-  justify-content: center;
+  width: 100%;
+ 
+  margin: 0 auto;
 }
 .bg-light{
-  background-color:#25514414 ;
+  background-color:rgb(255,144,14,0.1) ;
 }
 /*shared style*/
 .display-flex{
@@ -73,3 +78,10 @@ img{
   font-weight: 700;
   font-size: 4rem;
 }
+/*responsive*/
+@media screen and (max-width:576px) {
+  .navbar, .nav-link{
+    flex-direction: column;
+  }
+}
+  
